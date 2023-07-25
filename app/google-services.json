@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620803368064",
+    "project_id": "ischool-94c9a",
+    "storage_bucket": "ischool-94c9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620803368064:android:a7fc29219abfc096153265",
+        "android_client_info": {
+          "package_name": "com.rezaei.ischool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620803368064-8kq872qsin35rpug39t6hb2hm9qpthli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNtVdZwKmCSxSEFWITsCDMlT5R7CCwlgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620803368064-8kq872qsin35rpug39t6hb2hm9qpthli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
