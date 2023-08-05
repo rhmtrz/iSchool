@@ -1,6 +1,7 @@
 package com.rezaei.ischool.activities
 
 import android.os.Bundle
+import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
@@ -8,6 +9,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.google.android.material.navigationrail.NavigationRailView
 import com.rezaei.ischool.R
 import com.rezaei.ischool.databinding.ActivityMainBinding
 
@@ -34,6 +36,20 @@ class MainActivity : AppCompatActivity() {
                 .setAnchorView(R.id.fab)
                 .setAction("Action", null).show()
         }
+
+        val navigationRail: NavigationRailView = findViewById(R.id.navigation_rail)
+        navigationRail.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.dashboard -> {
+                    Toast.makeText(this, "Files", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.schedule -> {
+                    true
+                } else -> false
+            }
+        }
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
