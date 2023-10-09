@@ -8,9 +8,9 @@ import com.rezaei.ischool.R
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.StorageReference
 import com.google.firebase.storage.ktx.storage
-import com.rezaei.ischool.MainActivity
 import com.google.firebase.storage.ktx.component1
 
+// Later will remove this activity
 class DownloadActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
